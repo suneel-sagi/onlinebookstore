@@ -35,7 +35,7 @@
 - Servlet
 - Oracle
 - Maven Support
-
+ok
 3. Database used
 - Sql/MySql
 
