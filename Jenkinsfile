@@ -19,7 +19,7 @@ pipeline{
             }
             stage("Deploy war file to web server"){
                 steps {
-                    deploy adapters: [tomcat8(credentialsId: 'tomcat8_deployer', path: '', url: 'http://18.205.107.252:8080/')], contextPath: BHARATH, war: '**/*.war'
+                    deploy adapters: [tomcat8(credentialsId: 'tomcat8_deployer', path: '', url: 'http://18.205.107.252:8080/')], contextPath: 'BHARATH', war: '**/*.war'
                 }
             }
 
