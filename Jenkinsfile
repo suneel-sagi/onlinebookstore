@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent node
     tools {
   maven 'MAVEN_HOME'
 }
